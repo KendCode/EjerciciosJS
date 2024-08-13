@@ -1,0 +1,175 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    
+}
+.fondo{
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 4rem 4rem 4rem 4rem;
+    box-shadow:
+  2.8px 2.8px 2.1px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.1px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 9.6px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.2px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 32.2px rgba(0, 0, 0, 0.05),
+  100px 100px 77px rgba(0, 0, 0, 0.09);
+}
+h2{
+    color: #000000;
+}
+#tabla-container {
+    text-align: center;
+    color: black;
+}
+
+table {
+    margin: 0 auto;
+    color: #000000;
+}
+.contenedor{
+    width: 32rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 3rem;
+}
+.title{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+button {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #252525;
+    box-shadow: 3px 3px #000000;
+    cursor: pointer;
+    margin: 35px 0;
+  }
+  
+  button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+label{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+input{
+    margin: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 190px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #000000;
+}
+#resp{
+    color: rgb(0, 0, 0);
+}
+
+/* todo responsive */
+@media screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    .fondo{
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0.4);
+        margin: 4rem 3rem 3rem 1.5rem;
+        top: 50%;
+        left: 50%;
+        width: 286px;
+        border-radius: 51px;
+        padding-top: 7px;
+        padding-right: 5px;
+        padding-bottom: 27px;
+    }
+    .contenedor{
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 1rem;
+        
+    }
+    .title{
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+        font-size: 28px;
+    }
+    .btn{
+        align-content: center;
+        height: 25px;
+        padding-top: 2.5rem;
+        border-radius: 20rem;
+        display: inline-grid;
+    }
+    button{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 0;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        width: 9rem;
+        margin-top: 10px;
+    }
+    button:hover{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.4);
+        border: 0;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        width: 9rem;
+    }
+    label{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    input{
+        margin: 30px;
+        background: none;
+        border: none;
+        outline: none;
+        max-width: 190px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 9999px;
+        box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+        color: #fff;
+    }
+    input:hover{
+        background-color: rgb(95, 95, 95, 0.3);
+        border: solid 1px rgb(0, 0, 0);
+        font-size: 26px;
+        text-align: center; 
+    }
+    #resp{
+        color: white;
+        margin-top: 76px;
+    }  
+}
